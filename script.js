@@ -5,9 +5,6 @@ const closeBtn = document.querySelector('.close-btn');
 const prevBtn = document.querySelector('.prev-btn');
 const nextBtn = document.querySelector('.next-btn');
 
-// // Индекс текущего изображения в галерее
-// let currentIndex = -1; 
-
 // Открытие галереи
 galleryCards.forEach((element, index) => {
     element.addEventListener('click', (event) => {
